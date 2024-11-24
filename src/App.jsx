@@ -17,7 +17,7 @@ function App() {
       <header className="border-b-2 bg-slate-100 sticky top-0 z-50">
         <Navbar></Navbar>
       </header>
-      <main className="min-h-[calc(120vh-232px)]">
+      <main className="min-h-[calc(180vh-232px)]">
        <section>
        <Outlet></Outlet>
        </section>

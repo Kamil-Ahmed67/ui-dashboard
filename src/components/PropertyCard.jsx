@@ -1,6 +1,6 @@
 const PropertyCard = ({ property }) => {
     return (
-        <div className="flex flex-col flex-grow h-full">
+        <div  data-aos="fade-right" className="flex flex-col flex-grow h-full">
         <div className="flex-grow rounded-lg overflow-hidden shadow-lg bg-white hover:scale-105 transition ease-in-out duration-1000">
             <div className="p-4">
                 <h3 className="text-xl font-semibold">{property.title}</h3>

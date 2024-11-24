@@ -11,6 +11,7 @@ import Blog from './components/Blog.jsx';
 import Login from './components/Login.jsx';
 import Home from './components/Home.jsx';
 import PropertyCards from './components/PropertyCards.jsx';
+import AddNew from './components/AddNew.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login></Login>,
+      },
+      {
+        path:"/add",
+        element:<AddNew></AddNew>
       }
     ]
   },
