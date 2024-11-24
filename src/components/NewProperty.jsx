@@ -11,17 +11,14 @@ const NewProperty = () => {
     }, []);
 
     return (
-        <div className="mt-12">
-            <NavLink to="/add" className="btn btn-primary mb-5">
-                Add New
-            </NavLink>
+        <div className="mt-12 border-2 p-2 rounded-xl">
             {/* Render property cards */}
-            <div className="w-full grid grid-cols-1  gap-5">
+            <div data-aos="fade-left" className="w-full grid grid-cols-1  gap-5">
                 {newProperties.length > 0 ? (
                     newProperties.map((property) => (
                         <div
                             key={property.id}
-                            className="rounded-lg overflow-hidden shadow-lg bg-white p-4 hover:scale-105 transition ease-in-out duration-300"
+                            className="rounded-lg overflow-hidden bg-slate-100 p-4 hover:scale-105 transition ease-in-out duration-700"
                         >
                             <h3 className="text-xl font-semibold">{property.title}</h3>
                             <p className="text-gray-600 text-sm">{property.description}</p>
@@ -30,11 +27,10 @@ const NewProperty = () => {
                                     ${property.price}/month
                                 </p>
                                 <p
-                                    className={`mt-2 text-sm ${
-                                        property.status === 'Available'
+                                    className={`mt-2 text-sm ${property.status === 'Available'
                                             ? 'text-green-500'
                                             : 'text-red-500'
-                                    }`}
+                                        }`}
                                 >
                                     {property.status}
                                 </p>
@@ -46,6 +42,11 @@ const NewProperty = () => {
                         No new properties available. Add some!
                     </p>
                 )}
+            </div>
+            <div className='mt-4'>
+                <NavLink to="/add" className="btn bg-[#3d84a8] mb-5 text-lg text-gray-100">
+                    Add New
+                </NavLink>
             </div>
         </div>
     );
