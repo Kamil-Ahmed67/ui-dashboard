@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "Greenwood Apartments",
+      "title": "Modern 2BHK Apartment",
+      "description": "A spacious and modern 2-bedroom apartment with excellent amenities in the heart of the city.",
+      "type": "Apartment",
+      "status": "Available",
+      "price": 1500
+    },
+    {
+      "id": 2,
+      "name": "Willow Creek House",
+      "title": "Cozy Family Home",
+      "description": "A charming 3-bedroom house with a large backyard, perfect for families.",
+      "type": "House",
+      "status": "Rented",
+      "price": 2200
+    },
+    {
+      "id": 3,
+      "name": "Downtown Office Hub",
+      "title": "Prime Commercial Space",
+      "description": "A premium commercial property ideal for offices or retail, located downtown.",
+      "type": "Commercial",
+      "status": "Available",
+      "price": 3500
+    },
+    {
+      "id": 4,
+      "name": "Sunset Apartments",
+      "title": "Luxurious Studio Apartment",
+      "description": "A fully furnished studio apartment with stunning city views.",
+      "type": "Apartment",
+      "status": "Rented",
+      "price": 1200
+    },
+    {
+      "id": 5,
+      "name": "Hilltop Villa",
+      "title": "Elegant 4BHK House",
+      "description": "A stunning hilltop villa with modern interiors and scenic surroundings.",
+      "type": "House",
+      "status": "Available",
+      "price": 4500
+    },
+    {
+      "id": 6,
+      "name": "Central Plaza Office",
+      "title": "Spacious Commercial Office",
+      "description": "A large commercial office space with parking facilities, located in the business district.",
+      "type": "Commercial",
+      "status": "Rented",
+      "price": 5000
+    },
+    {
+      "id": 7,
+      "name": "Cityview Apartments",
+      "title": "Comfortable 3BHK Apartment",
+      "description": "A family-friendly 3-bedroom apartment with easy access to schools and shops.",
+      "type": "Apartment",
+      "status": "Available",
+      "price": 1800
+    },
+    {
+      "id": 8,
+      "name": "Oakridge Bungalow",
+      "title": "Classic 5BHK House",
+      "description": "A spacious 5-bedroom bungalow with vintage charm and modern upgrades.",
+      "type": "House",
+      "status": "Rented",
+      "price": 3200
+    },
+    {
+      "id": 9,
+      "name": "Skyline Tower",
+      "title": "Premium Commercial Suite",
+      "description": "An upscale commercial suite located in a prestigious high-rise.",
+      "type": "Commercial",
+      "status": "Available",
+      "price": 7500
+    },
+    {
+      "id": 10,
+      "name": "Maplewood Apartments",
+      "title": "Affordable 1BHK Apartment",
+      "description": "A budget-friendly 1-bedroom apartment with all essential amenities.",
+      "type": "Apartment",
+      "status": "Rented",
+      "price": 900
+    }
+  ]
+  
