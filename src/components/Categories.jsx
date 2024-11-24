@@ -7,7 +7,7 @@ import { ImOffice } from "react-icons/im";
 
 const Categories = () => {
     return (
-        <div>
+        <div className="mt-8">
             <div className="flex justify-center items-center space-x-4">
                 <div>
                     <NavLink

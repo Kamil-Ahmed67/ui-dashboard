@@ -12,13 +12,13 @@ const NewProperty = () => {
 
     return (
         <div className="mt-12 border-2 p-2 rounded-xl">
-            {/* Render property cards */}
+            {/* Render new property cards from local storage */}
             <div data-aos="fade-left" className="w-full grid grid-cols-1  gap-5">
                 {newProperties.length > 0 ? (
                     newProperties.map((property) => (
                         <div
                             key={property.id}
-                            className="rounded-lg overflow-hidden bg-slate-100 p-4 hover:scale-105 transition ease-in-out duration-700"
+                            className="rounded-lg overflow-hidden bg-slate-100 p-4"
                         >
                             <h3 className="text-xl font-semibold">{property.title}</h3>
                             <p className="text-gray-600 text-sm">{property.description}</p>

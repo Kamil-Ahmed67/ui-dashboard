@@ -13,7 +13,7 @@ function App() {
     AOS.refresh();
 }, []);
   return (
-    <>
+    <div className="bg-gray-50">
       <header className="border-b-2 bg-slate-100 sticky top-0 z-50">
         <Navbar></Navbar>
       </header>
@@ -25,7 +25,7 @@ function App() {
       <footer>
         <Footer></Footer>
       </footer>
-    </>
+    </div>
   )
 }
 
