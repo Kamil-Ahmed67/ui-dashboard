@@ -4,7 +4,6 @@ import Footer from "./components/Footer"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-
 function App() {
   useEffect(() => {
     AOS.init({
@@ -19,7 +18,9 @@ function App() {
         <Navbar></Navbar>
       </header>
       <main className="min-h-[calc(120vh-232px)]">
-        <Outlet></Outlet>
+       <section>
+       <Outlet></Outlet>
+       </section>
       </main>
       <footer>
         <Footer></Footer>

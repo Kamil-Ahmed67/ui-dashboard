@@ -9,11 +9,29 @@ import {
 import Inbox from './components/Inbox.jsx';
 import Blog from './components/Blog.jsx';
 import Login from './components/Login.jsx';
+import Home from './components/Home.jsx';
+import PropertyCards from './components/PropertyCards.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
     children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+        children: [
+          {
+            path: "/",
+            element: <PropertyCards></PropertyCards>,
+            loader: () => fetch('../property.json'),
+          },
+          {
+            path: "/type/:cat",
+            element: <PropertyCards></PropertyCards>,
+            loader: () => fetch('../property.json'),
+          }
+        ]
+      },
       {
         path: "/inbox",
         element: <Inbox></Inbox>,
